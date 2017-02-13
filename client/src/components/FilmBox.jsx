@@ -2,14 +2,14 @@ var React = require('react');
 
 var FilmList = require('./FilmList')
   
-var CommentBox = React.createClass({
+var FilmBox = React.createClass({
   render: function()
      return (
       <div className="film-box">
-        <CommentList/>
+        <FilmList/>
       </div>
     );
   }  
 });
 
-module.exports = CommentBox;
+module.exports = FilmBox;

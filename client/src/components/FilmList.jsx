@@ -1,13 +1,13 @@
 var React = require('react');
 
-var CommentList = React.createClass({
+var FilmList = React.createClass({
   render: function() {
     return (
-      <div className="comment-list">
-        I am a CommentList.
+      <div className="film-list">
+        I am a Film List.
       </div>
     );
   }
 });
 
-module.exports = CommentList;
+module.exports = FilmList;
