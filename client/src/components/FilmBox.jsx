@@ -11,7 +11,7 @@ var films = [
 {id: 6, title: "Equity", showtime: "Showtimes"},
 {id: 7, title: "Things to Come", showtime: "Showtimes"}
 ];
-  
+
 var FilmBox = React.createClass({
 
   getInitialState: function(){
@@ -19,15 +19,21 @@ var FilmBox = React.createClass({
   },
 
   render: function() {
-     return (
-      <div className="film-box">
-      <h2>UK Opening This Week</h2>
-        <FilmList data={this.state.data}/>
-      <container className="button-showtimes" type="button">
-      </container>
-      </div>
+   return (
+    <div className="film-box">
+    <h2>UK Opening This Week</h2>
+
+    <hr/>
+
+    <FilmList data={this.state.data}/>
+
+    <hr/>
+
+    <button className="button-showtimes" type="button">Click me
+    </button>
+    </div>
     );
-  }  
+ }  
 });
 
 module.exports = FilmBox;

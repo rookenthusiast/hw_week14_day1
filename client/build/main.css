@@ -10,6 +10,10 @@ h2{
   font-weight: normal;
 }
 
+hr{
+  background-color: black;
+}
+
 .film-box{
   text-align: left;
 }
